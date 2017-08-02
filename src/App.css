@@ -1,0 +1,30 @@
+.App-header {
+    text-align: center;
+
+}
+
+.App-header:hover {
+    color: cornflowerblue;
+}
+
+#nav-buttons {
+    text-align: center;
+    background-color: lightslategrey;
+}
+
+body {
+    color: lightslategrey;
+    font-family: Futura;
+}
+
+.btn-primary {
+    background-color: lightslategrey;
+}
+
+.btn-primary:hover {
+    background-color: cornflowerblue;
+}
+
+input {
+    padding-right: 100px;
+}
