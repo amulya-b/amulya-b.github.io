@@ -6,6 +6,7 @@ import Experience from './experience/Experience';
 import Contact from './contact/Contact';
 
 import './App.css';
+import Agilysys from "./experience/descriptions/Agilysys";
 
 class Main extends Component {
     render() {
@@ -14,6 +15,10 @@ class Main extends Component {
                 <Route exact path = "/" component = {Home} />
                 <Route path = "/experience" component = {Experience} />
                 <Route path = "/contact" component = {Contact}/>
+                <Route render = {() => {
+                        return <h1>Not Found</h1>
+                    }
+                } />
             </Switch>
         );
     }

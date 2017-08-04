@@ -8,8 +8,20 @@
     display: flex;
 }
 
-img {
+#photo {
+    -webkit-animation-delay: 0.75s;
+    -webkit-animation-duration: 4s;
     height: 30%;
     width: 30%;
     padding-right: 15px;
+}
+
+#welcome {
+    text-align: center;
+    -webkit-animation-duration: 2.5s;
+}
+
+#informal-description {
+    -webkit-animation-delay: 1.75s;
+    -webkit-animation-duration: 3s;
 }

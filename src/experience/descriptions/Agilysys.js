@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 
 import './Descriptions.css';
+import {Link} from "react-router-dom";
 
 class Agilysys extends Component {
     render() {
         return (
-            <div id = "companyDescription">
+            <div id = "companyDescription" className = "animated fadeIn">
                 <h5>Description of Agilysys</h5>
-                <p>Agilysys is a developer and marketer of proprietary enterprise software and other products for the hospitality
+                <p><a href = "https://agilysys.com">Agilysys</a> is a developer and marketer of proprietary enterprise software and other products for the hospitality
                     industry. The company specializes in point of sale, property management, inventory & procurement, document management,
                     workforce management, and mobile and wireless products</p>
                 <h5>When?</h5>
@@ -23,10 +24,10 @@ class Agilysys extends Component {
                         Utilizing REST API Endpoints and Java Database Connectivity in conjunction with Spring Framework to create a backend service to query for test results data from a PostgreSQL database. Assisted in design process for the schema of the database and query builders to dynamically generate SQL queries based on client arguments inputted by the user.
                     </li>
                     <li>
-                        Utilizing the React.js library, HTML, CSS for the frontend user interface of the dashboard.
+                        Utilizing the React.js library, Axios HTTP client, HTML, CSS for the frontend user interface of the dashboard.
                     </li>
                 </ul>
-                <a href="/experience" className = "btn btn-danger">Close Description</a>
+                <Link to="/experience" className = "btn btn-danger">Close Description</Link>
             </div>
         )
     }

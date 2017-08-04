@@ -3,8 +3,12 @@
 
 }
 
-.App-header:hover {
-    color: cornflowerblue;
+#firstName:hover {
+    color: indigo;
+}
+
+#lastName:hover {
+    color: gold;
 }
 
 #nav-buttons {
@@ -22,7 +26,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: cornflowerblue;
+    background-color: indigo;
 }
 
 input {

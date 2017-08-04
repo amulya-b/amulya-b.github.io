@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 
 class Mathnasium extends Component {
     render() {
         return (
             <div>
-                <div id = "companyDescription">
-                    <h5>Description of the Mathnasium</h5>
-                    <p>Mathnasium Learning Centers offer customized math tutoring services helping kids in grades K-12
+                <div id = "companyDescription" className = "animated fadeIn">
+                    <h5>Description of Mathnasium</h5>
+                    <p><a href = "http://www.mathnasium.com/issaquah">Mathnasium of Issaquah</a> offers customized math tutoring services helping kids in grades K-12
                         develop math skills through homework lessons & tutorials.</p>
                     <h5>When?</h5>
                     <p>January 2015 - July 2015</p>
@@ -19,7 +20,7 @@ class Mathnasium extends Component {
                         </li>
                     </ul>
                 </div>
-                <a href="/experience" className = "btn btn-danger">Close Description</a>
+                <Link to="/experience" className = "btn btn-danger">Close Description</Link>
             </div>
         )
     }

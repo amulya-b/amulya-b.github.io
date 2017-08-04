@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 
 class SeattleAppLab extends Component {
     render() {
         return (
             <div>
-                <div id = "companyDescription">
+                <div id = "companyDescription" className = "animated fadeIn">
                     <h5>Description of Seattle App Lab</h5>
-                    <p>Seattle App Lab is a services company that provides industry specific services for businesses with an
+                    <p><a href = "http://www.seattleapplab.com/">Seattle App Lab</a> is a services company that provides industry specific services for businesses with an
                         undivided focus on technology strategy and execution. Seattle App Lab provides strategic consulting,
                         mobile and cloud strategy, business intelligence, custom software development, and staffing services
                         to many companies around the world.</p>
@@ -27,7 +28,7 @@ class SeattleAppLab extends Component {
                         </li>
                     </ul>
                 </div>
-                <a href="/experience" className = "btn btn-danger">Close Description</a>
+                <Link to="/experience" className = "btn btn-danger">Close Description</Link>
             </div>
         )
     }

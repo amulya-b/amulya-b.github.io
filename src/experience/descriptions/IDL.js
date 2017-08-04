@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 
 class IDL extends Component {
     render() {
         return (
             <div>
-                <div id = "companyDescription">
+                <div id = "companyDescription" className = "animated fadeIn">
                     <h5>Description of the Interactive Data Lab</h5>
-                    <p>The mission of the Univerity of Washington's Interactive Data Lab is to enhance people's ability to understand and communicate
+                    <p><a href = "https://idl.cs.washington.edu/">The Univerity of Washington's Interactive Data Lab</a> enhances people's ability to understand and communicate
                         data through the design of new interactive systems for data visualization and analysis. We study the
                         perceptual, cognitive and social factors affecting data analysis in order to improve the efficiency
                         and scale at which expert analysts work, and to lower barriers for non-experts.</p>
@@ -24,7 +25,7 @@ class IDL extends Component {
                         </li>
                     </ul>
                 </div>
-                <a href="/experience" className = "btn btn-danger">Close Description</a>
+                <Link to ="/experience" className = "btn btn-danger">Close Description</Link>
             </div>
         )
     }
