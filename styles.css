@@ -1,5 +1,147 @@
-@import "//fonts.googleapis.com/css?family=Nunito";
+body {
+  font-family: Nunito;
+}
 
-h1 {
-  font-family: 'Nunito';
+h2 {
+  font-weight: normal;
+}
+
+p {
+  font-weight: 400;
+}
+
+b {
+  font-weight: 900;
+}
+
+#wrapper {
+  position: relative;
+  height: 97%;
+}
+
+@media only screen and (min-width: 768px) {
+  #column {
+    float: left;
+    width: 33.33%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #name {
+    font-size: 64px;
+  }
+  
+  #me {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  
+  #social {
+    height: 25px;
+    width: 25px;
+  }
+
+  #airbnb:hover {
+    color: #FF5A5F;
+    text-decoration: underline;
+  }
+  
+  #amazon:hover {
+    color: #FF9900;
+    text-decoration: underline;
+  }
+  
+  #udub:hover {
+    color: #4b2e83;
+    text-decoration: underline;
+  }
+
+  #agilysys:hover {
+    color: #4CAC44;
+    text-decoration: underline;
+  }
+
+  #first:hover {
+    color: #4b2e83;
+  }
+  
+  #last:hover {
+    color: #b7a57a;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #name {
+    font-size: 36px;
+  }
+
+  #me {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+
+  #social {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+#airbnb {
+  color: #FF5A5F;
+}
+
+#amazon {
+  color: #FF9900;
+}
+
+#udub {
+  color: #4b2e83;
+}
+
+#agilysys {
+  color: #4CAC44;
+}
+
+#first:hover {
+  color: #4b2e83;
+}
+
+#last:hover {
+  color: #b7a57a;
+}
+
+#book:hover {
+  color: lightskyblue;
+  text-decoration: underline;
+}
+
+#playlist:hover {
+  color: #1DB954;
+  text-decoration: underline;
+}
+
+#youtube:hover {
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+#issaquah:hover {
+  color: lightseagreen;
+  text-decoration: underline;
+}
+
+#email {
+  color: #00A699;
+}
+
+#email:hover {
+  text-decoration: underline;
+}
+
+.website {
+  color: black;
+  text-decoration: none;
 }
