@@ -118,8 +118,11 @@ b {
   text-decoration: underline;
 }
 
-#playlist:hover {
+#playlist {
   color: #1DB954;
+}
+
+#playlist:hover {
   text-decoration: underline;
 }
 
