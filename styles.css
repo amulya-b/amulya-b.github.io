@@ -156,3 +156,11 @@ b {
 #logo:hover {
   color: #b7a57a;
 }
+
+#resume {
+  color: darkslateblue;
+}
+
+#resume:hover {
+  text-decoration: underline;
+}
