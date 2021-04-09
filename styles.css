@@ -19,17 +19,17 @@ b {
   height: 97%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1220px) {
   #column {
     float: left;
-    width: 33.33%;
+    width: 25%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
   }
   
   #name {
-    font-size: 64px;
+    font-size: 48px;
   }
   
   #me {
@@ -72,7 +72,7 @@ b {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1219px) {
   #name {
     font-size: 36px;
   }
