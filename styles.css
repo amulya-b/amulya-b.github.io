@@ -62,13 +62,6 @@ b {
     padding-right:50%;
     width: 100%;
   }
-
-  #row-2--column-2 {
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 50%;
-  }
-  
   #name {
     font-size: 48px;
   }
@@ -159,6 +152,11 @@ b {
 
 #book:hover {
   color: lightskyblue;
+  text-decoration: underline;
+}
+
+#film:hover {
+  color: black;
   text-decoration: underline;
 }
 
